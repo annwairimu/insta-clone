@@ -16,6 +16,7 @@ nav {
     border-right: 1px solid #b7b7b7;
     width: 20%;
     height: 100vh;
+    float:left;
     
 
    
@@ -54,6 +55,12 @@ nav {
 /* Main container Section */
 .main-container{
     width: 100%;
+    position: relative;
+    margin-top: 60px;
+    width: 75%;
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: space-between;
     
 }
 .inner-container{
@@ -67,7 +74,7 @@ nav {
 /* Left Container Section */
 .story{
     width: 50%;
-
+    float:left;
     
 }
 
@@ -201,6 +208,7 @@ nav {
 /* Sidebar Section Start */
 .right-col{
     padding: 20px;
+    float: right;
 
 }
 
